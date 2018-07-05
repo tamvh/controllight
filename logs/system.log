@@ -3078,3 +3078,254 @@ java.io.IOException: Broken pipe
 2018-07-05 08:48:27  INFO ServerConnector:266 - Started ServerConnector@2ee6cfe0{HTTP/1.1}{0.0.0.0:8585}
 2018-07-05 08:48:27  INFO ServerConnector:266 - Started ServerConnector@241f58ae{HTTP/1.1}{0.0.0.0:9998}
 2018-07-05 08:48:27  INFO Server:350 - Started @860ms
+2018-07-05 08:56:28  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.gateway.common.CommonModel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 20 more
+2018-07-05 08:56:29  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-05 08:56:30  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-05 08:56:30  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-05 08:56:30  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-05 08:56:30  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-05 08:56:32  WARN ServletHandler:631 - Error for /v001/api/light
+java.lang.NoClassDefFoundError: com/gateway/common/CommonModel
+	at com.gateway.controller.LightController.processs(LightController.java:54)
+	at com.gateway.controller.LightController.handle(LightController.java:43)
+	at com.gateway.controller.LightController.doPost(LightController.java:38)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:551)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-05 08:56:45  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-05 08:56:45  INFO ServerConnector:303 - Stopped ServerConnector@2ee6cfe0{HTTP/1.1}{0.0.0.0:8585}
+2018-07-05 08:56:45  INFO ServerConnector:303 - Stopped ServerConnector@241f58ae{HTTP/1.1}{0.0.0.0:9998}
+2018-07-05 08:56:45  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@39a37c6a{/,null,UNAVAILABLE}
+2018-07-05 08:56:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@733b4f{/ntf,null,UNAVAILABLE}
+2018-07-05 08:56:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f737750{/static,null,UNAVAILABLE}
+2018-07-05 08:56:51  INFO MqttManager:48 - mqtt broker = tcp://127.0.0.1:1883
+2018-07-05 08:56:51  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = tcp://127.0.0.1:1883
+2018-07-05 08:56:51  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = tcp://127.0.0.1:1883
+2018-07-05 08:56:51  INFO log:178 - Logging initialized @542ms
+2018-07-05 08:56:51  INFO WebServer:66 - Start server...
+2018-07-05 08:56:52  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@2f94b263{/,null,null} contextPath ends with /*
+2018-07-05 08:56:52  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-05 08:56:52  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@dacc80c{/static,null,AVAILABLE}
+2018-07-05 08:56:52  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f94b263{/ntf,null,AVAILABLE}
+2018-07-05 08:56:52  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@115c70a8{/,null,AVAILABLE}
+2018-07-05 08:56:52  INFO ServerConnector:266 - Started ServerConnector@bc886b7{HTTP/1.1}{0.0.0.0:8585}
+2018-07-05 08:56:52  INFO ServerConnector:266 - Started ServerConnector@9f9fa62{HTTP/1.1}{0.0.0.0:9998}
+2018-07-05 08:56:52  INFO Server:350 - Started @888ms
+2018-07-05 08:57:11  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:12  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:36  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:36  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:37  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:37  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:37  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:37  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:38  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:38  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:38  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:38  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:38  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:38  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:39  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:39  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:39  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:39  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:40  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:40  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:40  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:40  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:41  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:41  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:41  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:41  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:42  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:42  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:42  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:42  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:42  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:42  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:43  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:43  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:43  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:43  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:43  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:43  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:44  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:44  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:45  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:45  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:45  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:45  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:45  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 08:57:45  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:46  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-05 08:57:46  INFO LightController:86 - topic: light/2
+2018-07-05 08:57:50  INFO LightController:55 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-05 08:57:50  INFO LightController:86 - topic: light/6
+2018-07-05 08:58:05  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-05 08:58:05  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:24  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-05 08:58:24  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:29  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-05 08:58:29  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:32  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-05 08:58:32  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:34  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-05 08:58:34  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:36  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-05 08:58:36  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:38  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-05 08:58:38  INFO LightController:86 - topic: light/1
+2018-07-05 08:58:42  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-05 08:58:42  INFO LightController:86 - topic: light/1
+2018-07-05 09:14:21  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-05 09:14:21  INFO LightController:86 - topic: light/1
+2018-07-05 09:15:22  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-05 09:15:22  INFO LightController:86 - topic: light/1
+2018-07-05 09:15:24  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-05 09:15:24  INFO LightController:86 - topic: light/2

@@ -4,8 +4,8 @@
     'use strict';
     theApp
         .controller('HomeController', HomeController);
-    HomeController.$inject = ['$scope', 'HomeService'];
-    function HomeController($scope, HomeService) {
+    HomeController.$inject = ['$scope', 'HomeService', 'WSService'];
+    function HomeController($scope, HomeService, WSService) {
         var data = [
             {
                 id: 1,
@@ -103,7 +103,8 @@
                             }
                         } else {
                         }
-//                        WSService.addCallBack(MSG_TYPE_LIGHT_ONOFF, $scope.updateLightStt);
+                        console.log("MSG_TYPE_LIGHT_ONOFF: " + MSG_TYPE_LIGHT_ONOFF);
+                        WSService.addCallBack(MSG_TYPE_LIGHT_ONOFF, $scope.updateLightStt);
                     });
                     break;
                 }

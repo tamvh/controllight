@@ -1,7 +1,6 @@
-/* global theApp, MSG_TYPE_PONG, MSG_TYPE_PING */
+/* global theApp, MSG_TYPE_PONG, MSG_TYPE_PING, WS_URL */
 
 theApp.factory('WSService', function() {            
-      //var ws = new WebSocket(WS_URL);
       var ws;      
       var isConnected = false;
       var mapCallBackFunc = {};
@@ -15,8 +14,8 @@ theApp.factory('WSService', function() {
         sessionId = current.toString() + "-" + tempNum.toString();  
       }
       genSessionID();
-      var WS_URL = "ws://127.0.0.1:9998";
-      var wsServerUrl = WS_URL + sessionId;
+      console.log('WS_URL: ' + WS_URL);
+      var wsServerUrl = WS_URL +"?session_id=" + sessionId;
       function startNewWebsocket() {        
         ws = new WebSocket(wsServerUrl);
         //receive data from server

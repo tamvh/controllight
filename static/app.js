@@ -20,8 +20,8 @@ theApp.constant('API_URL', API_URL);
         $httpProvider.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
     }
 
-    run.$inject = ['$rootScope'];
-    function run($rootScope) {
+    run.$inject = ['$rootScope', 'WSService'];
+    function run($rootScope, WSService) {
 	        
     }
 })();
