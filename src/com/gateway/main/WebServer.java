@@ -68,7 +68,7 @@ public class WebServer implements Runnable{
             ServletContextHandler servletContext = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
             servletContext.setContextPath("/");
         
-            servletContext.addServlet(LightController.class, "/v001/api/light/*");
+            servletContext.addServlet(LightController.class, "/iot-demo/v1/api/*");
             
             WebSocketHandler wsHandler = new WebSocketHandler() {
                 @Override
@@ -78,7 +78,7 @@ public class WebServer implements Runnable{
             };
             ContextHandler wsContextHandler = new ContextHandler();
             wsContextHandler.setHandler(wsHandler);
-            wsContextHandler.setContextPath("/ntf/*");
+            wsContextHandler.setContextPath("/iot-demo/ntf/*");
 
             ResourceHandler resource_handler = new ResourceHandler();
             resource_handler.setResourceBase("./static/");
@@ -88,6 +88,7 @@ public class WebServer implements Runnable{
             
             HandlerList handlers = new HandlerList();
             handlers.setHandlers(new Handler[]{resourceContext, wsContextHandler, servletContext, new DefaultHandler()});
+//            handlers.setHandlers(new Handler[]{wsContextHandler, servletContext, new DefaultHandler()});
             server.setHandler(handlers);
             
             server.start();

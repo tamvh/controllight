@@ -9,7 +9,7 @@
     HomeService.$inject = ['$http', '$q', 'API_URL'];
     function HomeService($http, $q, API_URL) {
         var service = {};
-        var url = API_URL + "v001/api/light";
+        var url = API_URL + "iot-demo/v1/api";
         
         service.onoff = onoff;
         

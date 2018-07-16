@@ -25,7 +25,7 @@ import com.google.gson.Gson;
  *
  * @author tamvh
  */
-public class LightController extends HttpServlet {
+    public class LightController extends HttpServlet {
     protected final Logger logger = Logger.getLogger(this.getClass());
      private static final Gson _gson = new Gson();
     @Override
