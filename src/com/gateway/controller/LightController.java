@@ -82,7 +82,7 @@ import com.google.gson.Gson;
                 String sendData = _gson.toJson(jsonMain);
                 
                 NotifyController.sendMessageToClient(sendData);
-                String topic = "light/" + String.valueOf(id);
+                String topic = "light";
                 logger.info("topic: " + topic);
                 MqttManager.getInstance().publish(topic, _gson.toJson(dt));
                 content = CommonModel.FormatResponse(0, "Success");

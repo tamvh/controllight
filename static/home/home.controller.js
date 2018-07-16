@@ -87,16 +87,7 @@
         function onConnect() {
             // Once a connection has been made, make a subscription and send a message.
             console.log("onConnect");
-            mqtt_client.subscribe("light/1");
-            mqtt_client.subscribe("light/2");
-            mqtt_client.subscribe("light/3");   
-            mqtt_client.subscribe("light/4");
-            mqtt_client.subscribe("light/5");
-            mqtt_client.subscribe("light/6");
-            mqtt_client.subscribe("light/7");
-            mqtt_client.subscribe("light/8");
-            mqtt_client.subscribe("light/9");
-            mqtt_client.subscribe("light/10");
+            mqtt_client.subscribe("light");
         }
 
         // called when the client loses its connection
@@ -161,10 +152,14 @@
                                 $scope.listlight[i].img = "lightOn.png";
                             }
                         } else {
+                            
                         }
+                        
+                        console.log('$scope.listlight: ' + JSON.stringify($scope.listlight));
                         console.log("MSG_TYPE_LIGHT_ONOFF: " + MSG_TYPE_LIGHT_ONOFF);
 //                        WSService.addCallBack(MSG_TYPE_LIGHT_ONOFF, $scope.updateLightStt);
                     });
+                    
                     break;
                 }
             }

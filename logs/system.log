@@ -3860,3 +3860,163 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 2018-07-14 23:48:46  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@426db3de{/,null,UNAVAILABLE}
 2018-07-14 23:48:46  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@3d142048{/iot-demo/ntf,null,UNAVAILABLE}
 2018-07-14 23:48:46  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@55d35c10{/static,null,UNAVAILABLE}
+2018-07-16 18:53:47  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 18:53:47 ERROR MqttManager:59 - MqttManager.start: Unable to connect to server
+Unable to connect to server (32103) - java.net.ConnectException: Connection refused (Connection refused)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:79)
+	at org.eclipse.paho.client.mqttv3.internal.websocket.WebSocketNetworkModule.start(WebSocketNetworkModule.java:76)
+	at org.eclipse.paho.client.mqttv3.internal.ClientComms$ConnectBG.run(ClientComms.java:650)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.paho.client.mqttv3.internal.TCPNetworkModule.start(TCPNetworkModule.java:70)
+	... 3 more
+2018-07-16 18:53:47  INFO log:178 - Logging initialized @877ms
+2018-07-16 18:53:47  INFO WebServer:66 - Start server...
+2018-07-16 18:53:47  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@292f8ed4{/,null,null} contextPath ends with /*
+2018-07-16 18:53:48  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 18:53:48  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@3a36f75e{/static,null,AVAILABLE}
+2018-07-16 18:53:48  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@292f8ed4{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 18:53:48  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@3e98d6b8{/,null,AVAILABLE}
+2018-07-16 18:53:48  INFO ServerConnector:266 - Started ServerConnector@6958803b{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:53:48  INFO ServerConnector:266 - Started ServerConnector@297def9f{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:53:48  INFO Server:350 - Started @1200ms
+2018-07-16 18:54:21  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 18:54:21  INFO ServerConnector:303 - Stopped ServerConnector@6958803b{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:54:21  INFO ServerConnector:303 - Stopped ServerConnector@297def9f{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:54:21  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@3e98d6b8{/,null,UNAVAILABLE}
+2018-07-16 18:54:21  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@292f8ed4{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 18:54:21  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@3a36f75e{/static,null,UNAVAILABLE}
+2018-07-16 18:54:24  INFO MqttManager:48 - mqtt broker = ws://10.9.12.12:8083
+2018-07-16 18:54:24  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://10.9.12.12:8083
+2018-07-16 18:54:24  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://10.9.12.12:8083
+2018-07-16 18:54:24  INFO log:178 - Logging initialized @1015ms
+2018-07-16 18:54:24  INFO WebServer:66 - Start server...
+2018-07-16 18:54:24  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@6905a638{/,null,null} contextPath ends with /*
+2018-07-16 18:54:24  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 18:54:24  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6f2a7219{/static,null,AVAILABLE}
+2018-07-16 18:54:24  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6905a638{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 18:54:24  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@f859678{/,null,AVAILABLE}
+2018-07-16 18:54:24  INFO ServerConnector:266 - Started ServerConnector@1e7afb5{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:54:24  INFO ServerConnector:266 - Started ServerConnector@3ea6dcb3{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:54:24  INFO Server:350 - Started @1227ms
+2018-07-16 18:54:32  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 18:54:32  INFO ServerConnector:303 - Stopped ServerConnector@1e7afb5{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:54:32  INFO ServerConnector:303 - Stopped ServerConnector@3ea6dcb3{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:54:32  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@f859678{/,null,UNAVAILABLE}
+2018-07-16 18:54:32  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6905a638{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 18:54:32  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6f2a7219{/static,null,UNAVAILABLE}
+2018-07-16 18:55:07  INFO MqttManager:48 - mqtt broker = ws://10.9.12.12:8083
+2018-07-16 18:55:07  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://10.9.12.12:8083
+2018-07-16 18:55:07  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://10.9.12.12:8083
+2018-07-16 18:55:07  INFO log:178 - Logging initialized @980ms
+2018-07-16 18:55:07  INFO WebServer:66 - Start server...
+2018-07-16 18:55:07  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@20a6c885{/,null,null} contextPath ends with /*
+2018-07-16 18:55:07  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 18:55:07  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f7b485d{/static,null,AVAILABLE}
+2018-07-16 18:55:07  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 18:55:07  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6e026199{/,null,AVAILABLE}
+2018-07-16 18:55:08  INFO ServerConnector:266 - Started ServerConnector@1db4d537{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:55:08  INFO ServerConnector:266 - Started ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:55:08  INFO Server:350 - Started @1212ms
+2018-07-16 18:55:21  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:55:21  INFO LightController:86 - topic: light/1
+2018-07-16 18:55:58  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 18:55:58  INFO ServerConnector:303 - Stopped ServerConnector@1db4d537{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:55:58  INFO ServerConnector:303 - Stopped ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:55:58  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6e026199{/,null,UNAVAILABLE}
+2018-07-16 18:55:58  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 18:55:58  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f7b485d{/static,null,UNAVAILABLE}
+2018-07-16 18:56:52  INFO MqttManager:48 - mqtt broker = ws://10.9.12.12:18083
+2018-07-16 18:56:52  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://10.9.12.12:18083
+2018-07-16 18:56:52  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://10.9.12.12:18083
+2018-07-16 18:56:52  INFO log:178 - Logging initialized @971ms
+2018-07-16 18:56:52  INFO WebServer:66 - Start server...
+2018-07-16 18:56:53  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@3d142048{/,null,null} contextPath ends with /*
+2018-07-16 18:56:53  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 18:56:53  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@55d35c10{/static,null,AVAILABLE}
+2018-07-16 18:56:53  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@3d142048{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 18:56:53  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@426db3de{/,null,AVAILABLE}
+2018-07-16 18:56:53  INFO ServerConnector:266 - Started ServerConnector@4b8fd4cb{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:56:53  INFO ServerConnector:266 - Started ServerConnector@4b0cc9d6{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:56:53  INFO Server:350 - Started @1202ms
+2018-07-16 18:56:58  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:56:58  INFO LightController:86 - topic: light/1
+2018-07-16 18:57:29  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:57:29  INFO LightController:86 - topic: light/1
+2018-07-16 18:57:46  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 18:57:46  INFO ServerConnector:303 - Stopped ServerConnector@4b8fd4cb{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:57:46  INFO ServerConnector:303 - Stopped ServerConnector@4b0cc9d6{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:57:46  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@426db3de{/,null,UNAVAILABLE}
+2018-07-16 18:57:46  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@3d142048{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 18:57:46  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@55d35c10{/static,null,UNAVAILABLE}
+2018-07-16 18:58:31  INFO MqttManager:48 - mqtt broker = ws://10.9.12.12:18083
+2018-07-16 18:58:31  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://10.9.12.12:18083
+2018-07-16 18:58:32  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://10.9.12.12:18083
+2018-07-16 18:58:32  INFO log:178 - Logging initialized @1162ms
+2018-07-16 18:58:32  INFO WebServer:66 - Start server...
+2018-07-16 18:58:32  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@6905a638{/,null,null} contextPath ends with /*
+2018-07-16 18:58:32  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 18:58:32  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6f2a7219{/static,null,AVAILABLE}
+2018-07-16 18:58:32  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6905a638{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 18:58:32  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@f859678{/,null,AVAILABLE}
+2018-07-16 18:58:32  INFO ServerConnector:266 - Started ServerConnector@1e7afb5{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 18:58:32  INFO ServerConnector:266 - Started ServerConnector@3ea6dcb3{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 18:58:32  INFO Server:350 - Started @1344ms
+2018-07-16 18:58:38  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:58:38  INFO LightController:86 - topic: light
+2018-07-16 18:58:45  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:58:45  INFO LightController:86 - topic: light
+2018-07-16 18:58:51  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:58:51  INFO LightController:86 - topic: light
+2018-07-16 18:59:00  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:59:00  INFO LightController:86 - topic: light
+2018-07-16 18:59:10  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:59:10  INFO LightController:86 - topic: light
+2018-07-16 18:59:17  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 18:59:17  INFO LightController:86 - topic: light
+2018-07-16 19:00:07  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:00:07  INFO LightController:86 - topic: light
+2018-07-16 19:01:28  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:01:28  INFO LightController:86 - topic: light
+2018-07-16 19:02:19  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:02:19  INFO LightController:86 - topic: light
+2018-07-16 19:02:26  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:02:26  INFO LightController:86 - topic: light
+2018-07-16 19:02:32  INFO LightController:55 - data: {"id":9,"stt":1}, cm: onoff
+2018-07-16 19:02:32  INFO LightController:86 - topic: light
+2018-07-16 19:02:41  INFO LightController:55 - data: {"id":9,"stt":0}, cm: onoff
+2018-07-16 19:02:41  INFO LightController:86 - topic: light
+2018-07-16 19:02:49  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:49  INFO LightController:86 - topic: light
+2018-07-16 19:02:50  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:50  INFO LightController:86 - topic: light
+2018-07-16 19:02:50  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:50  INFO LightController:86 - topic: light
+2018-07-16 19:02:51  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:51  INFO LightController:86 - topic: light
+2018-07-16 19:02:52  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:52  INFO LightController:86 - topic: light
+2018-07-16 19:02:52  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:52  INFO LightController:86 - topic: light
+2018-07-16 19:02:53  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:53  INFO LightController:86 - topic: light
+2018-07-16 19:02:53  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:53  INFO LightController:86 - topic: light
+2018-07-16 19:02:53  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:53  INFO LightController:86 - topic: light
+2018-07-16 19:02:54  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:54  INFO LightController:86 - topic: light
+2018-07-16 19:02:54  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:54  INFO LightController:86 - topic: light
+2018-07-16 19:02:55  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:55  INFO LightController:86 - topic: light
+2018-07-16 19:02:55  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:02:55  INFO LightController:86 - topic: light
+2018-07-16 19:02:55  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:02:55  INFO LightController:86 - topic: light
