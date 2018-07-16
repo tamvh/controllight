@@ -21,13 +21,16 @@ import com.google.gson.JsonObject;
 import com.gateway.controller.NotifyController;
 import com.gateway.mqtt.MqttManager;
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 /**
  *
  * @author tamvh
  */
     public class LightController extends HttpServlet {
     protected final Logger logger = Logger.getLogger(this.getClass());
-     private static final Gson _gson = new Gson();
+    private static final Gson _gson = new Gson();
+    private static final JsonArray list_light = new JsonArray();
+    
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         handle(req, resp);
@@ -53,7 +56,10 @@ import com.google.gson.Gson;
             
         CommonModel.prepareHeader(resp, CommonModel.HEADER_JS);
         logger.info("data: " + data + ", cm: " + cmd);
-        switch (cmd) {            
+        switch (cmd) {   
+            case "getlist":
+                content = getlist(req);
+                break;
             case "onoff":
                 content = onoff(req, data);
                 break;
@@ -73,15 +79,30 @@ import com.google.gson.Gson;
             } else {
                 int id = jsonObject.get("id").getAsInt();
                 int stt = jsonObject.get("stt").getAsInt();
+                for(int i = 0; i < list_light.size(); i++ ){
+                    JsonObject jitem = (JsonObject) list_light.get(i);
+                    if(jitem.get("id").getAsInt() == id) {
+                        jitem.addProperty("stt", stt);
+                        if(stt == 0) {
+                            jitem.addProperty("img", "lightOff.png");
+                        } else {
+                            jitem.addProperty("img", "lightOn.png");
+                        } 
+                        list_light.set(i, jitem);
+                        break;
+                    }
+                }
+            
                 JsonObject dt = new JsonObject();
                 dt.addProperty("id", id);
                 dt.addProperty("stt", stt);
-                JsonObject jsonMain = new JsonObject();                
-                jsonMain.addProperty("msg_type", MessageType.MSG_LIGHT_ONOFF);
-                jsonMain.add("dt", dt);
-                String sendData = _gson.toJson(jsonMain);
                 
-                NotifyController.sendMessageToClient(sendData);
+//                JsonObject jsonMain = new JsonObject();                
+//                jsonMain.addProperty("msg_type", MessageType.MSG_LIGHT_ONOFF);
+//                jsonMain.add("dt", dt);
+//                String sendData = _gson.toJson(jsonMain);
+//                NotifyController.sendMessageToClient(sendData);
+
                 String topic = "light";
                 logger.info("topic: " + topic);
                 MqttManager.getInstance().publish(topic, _gson.toJson(dt));
@@ -93,5 +114,32 @@ import com.google.gson.Gson;
         }
         
         return content;
+    }
+
+    private String getlist(HttpServletRequest req) {
+        String content = null;
+        int ret = AppConst.ERROR_GENERIC;
+        try {
+            if(list_light.size() <= 0) {
+                initListLight();
+            }
+            content = CommonModel.FormatResponse(0, "Success", list_light);
+        } catch (Exception ex) {
+            logger.error(getClass().getSimpleName() + ".onoff: " + ex.getMessage(), ex);
+            content = CommonModel.FormatResponse(ret, ex.getMessage());
+        }
+        
+        return content;
+    }
+    
+    private void initListLight() {
+        for(int i = 0; i< 10; i++) {
+            JsonObject item = new JsonObject();
+            item.addProperty("id", i + 1);
+            item.addProperty("stt", 0);
+            item.addProperty("img", "lightOff.png");
+            item.addProperty("name", "Light " + String.valueOf(i + 1));
+            list_light.add(item);
+        }
     }
 }

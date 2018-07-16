@@ -4020,3 +4020,815 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 2018-07-16 19:02:55  INFO LightController:86 - topic: light
 2018-07-16 19:02:55  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
 2018-07-16 19:02:55  INFO LightController:86 - topic: light
+2018-07-16 19:04:52  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:04:52  INFO LightController:86 - topic: light
+2018-07-16 19:05:02  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:05:02  INFO LightController:86 - topic: light
+2018-07-16 19:05:45  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:05:45  INFO LightController:86 - topic: light
+2018-07-16 19:05:49  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:05:49  INFO LightController:86 - topic: light
+2018-07-16 19:05:49  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:05:49  INFO LightController:86 - topic: light
+2018-07-16 19:05:53  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:05:53  INFO LightController:86 - topic: light
+2018-07-16 19:05:54  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:05:54  INFO LightController:86 - topic: light
+2018-07-16 19:06:21  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:06:21  INFO LightController:86 - topic: light
+2018-07-16 19:06:26  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:06:26  INFO LightController:86 - topic: light
+2018-07-16 19:06:41  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 19:06:41  INFO ServerConnector:303 - Stopped ServerConnector@1e7afb5{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:06:41  INFO ServerConnector:303 - Stopped ServerConnector@3ea6dcb3{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:06:41  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@f859678{/,null,UNAVAILABLE}
+2018-07-16 19:06:41  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6905a638{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 19:06:41  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6f2a7219{/static,null,UNAVAILABLE}
+2018-07-16 19:06:44  INFO MqttManager:48 - mqtt broker = ws://10.9.12.12:18083
+2018-07-16 19:06:44  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://10.9.12.12:18083
+2018-07-16 19:06:44  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://10.9.12.12:18083
+2018-07-16 19:06:44  INFO log:178 - Logging initialized @1096ms
+2018-07-16 19:06:44  INFO WebServer:66 - Start server...
+2018-07-16 19:06:44  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@20a6c885{/,null,null} contextPath ends with /*
+2018-07-16 19:06:44  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 19:06:44  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f7b485d{/static,null,AVAILABLE}
+2018-07-16 19:06:45  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 19:06:45  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6e026199{/,null,AVAILABLE}
+2018-07-16 19:06:45  INFO ServerConnector:266 - Started ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:06:45  INFO ServerConnector:266 - Started ServerConnector@3f9b1027{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:06:45  INFO Server:350 - Started @1304ms
+2018-07-16 19:06:55  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:06:55  INFO LightController:86 - topic: light
+2018-07-16 19:07:01  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:01  INFO LightController:86 - topic: light
+2018-07-16 19:07:43  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:43  INFO LightController:86 - topic: light
+2018-07-16 19:07:54  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:54  INFO LightController:86 - topic: light
+2018-07-16 19:07:55  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:55  INFO LightController:86 - topic: light
+2018-07-16 19:07:55  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:55  INFO LightController:86 - topic: light
+2018-07-16 19:07:56  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:56  INFO LightController:86 - topic: light
+2018-07-16 19:07:56  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:56  INFO LightController:86 - topic: light
+2018-07-16 19:07:56  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:56  INFO LightController:86 - topic: light
+2018-07-16 19:07:57  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:57  INFO LightController:86 - topic: light
+2018-07-16 19:07:57  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:57  INFO LightController:86 - topic: light
+2018-07-16 19:07:58  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:58  INFO LightController:86 - topic: light
+2018-07-16 19:07:58  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:58  INFO LightController:86 - topic: light
+2018-07-16 19:07:59  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:59  INFO LightController:86 - topic: light
+2018-07-16 19:07:59  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:07:59  INFO LightController:86 - topic: light
+2018-07-16 19:07:59  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:07:59  INFO LightController:86 - topic: light
+2018-07-16 19:08:00  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:08:00  INFO LightController:86 - topic: light
+2018-07-16 19:08:00  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:08:00  INFO LightController:86 - topic: light
+2018-07-16 19:08:01  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:08:01  INFO LightController:86 - topic: light
+2018-07-16 19:08:13  INFO LightController:55 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 19:08:13  INFO LightController:86 - topic: light
+2018-07-16 19:08:15  INFO LightController:55 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 19:08:15  INFO LightController:86 - topic: light
+2018-07-16 19:08:24  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:08:24  INFO LightController:86 - topic: light
+2018-07-16 19:08:42  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:08:42  INFO LightController:86 - topic: light
+2018-07-16 19:09:49  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:09:49  INFO LightController:86 - topic: light
+2018-07-16 19:10:00  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:10:00  INFO LightController:86 - topic: light
+2018-07-16 19:10:08  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:10:08  INFO LightController:86 - topic: light
+2018-07-16 19:10:49  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:10:49  INFO LightController:86 - topic: light
+2018-07-16 19:10:53  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:10:53  INFO LightController:86 - topic: light
+2018-07-16 19:11:02  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:02  INFO LightController:86 - topic: light
+2018-07-16 19:11:03  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:03  INFO LightController:86 - topic: light
+2018-07-16 19:11:03  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:03  INFO LightController:86 - topic: light
+2018-07-16 19:11:04  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:04  INFO LightController:86 - topic: light
+2018-07-16 19:11:04  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:04  INFO LightController:86 - topic: light
+2018-07-16 19:11:04  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:04  INFO LightController:86 - topic: light
+2018-07-16 19:11:05  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:05  INFO LightController:86 - topic: light
+2018-07-16 19:11:05  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:05  INFO LightController:86 - topic: light
+2018-07-16 19:11:05  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:05  INFO LightController:86 - topic: light
+2018-07-16 19:11:05  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:05  INFO LightController:86 - topic: light
+2018-07-16 19:11:05  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:05  INFO LightController:86 - topic: light
+2018-07-16 19:11:06  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:06  INFO LightController:86 - topic: light
+2018-07-16 19:11:06  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:06  INFO LightController:86 - topic: light
+2018-07-16 19:11:06  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:06  INFO LightController:86 - topic: light
+2018-07-16 19:11:07  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:07  INFO LightController:86 - topic: light
+2018-07-16 19:11:07  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:07  INFO LightController:86 - topic: light
+2018-07-16 19:11:08  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:08  INFO LightController:86 - topic: light
+2018-07-16 19:11:09  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:09  INFO LightController:86 - topic: light
+2018-07-16 19:11:09  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:09  INFO LightController:86 - topic: light
+2018-07-16 19:11:09  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:09  INFO LightController:86 - topic: light
+2018-07-16 19:11:09  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:09  INFO LightController:86 - topic: light
+2018-07-16 19:11:10  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:10  INFO LightController:86 - topic: light
+2018-07-16 19:11:10  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:10  INFO LightController:86 - topic: light
+2018-07-16 19:11:10  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:11  INFO LightController:86 - topic: light
+2018-07-16 19:11:11  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:11  INFO LightController:86 - topic: light
+2018-07-16 19:11:11  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:11  INFO LightController:86 - topic: light
+2018-07-16 19:11:11  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:11  INFO LightController:86 - topic: light
+2018-07-16 19:11:12  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:12  INFO LightController:86 - topic: light
+2018-07-16 19:11:12  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:12  INFO LightController:86 - topic: light
+2018-07-16 19:11:12  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:12  INFO LightController:86 - topic: light
+2018-07-16 19:11:13  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:13  INFO LightController:86 - topic: light
+2018-07-16 19:11:13  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:13  INFO LightController:86 - topic: light
+2018-07-16 19:11:14  INFO LightController:55 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 19:11:14  INFO LightController:86 - topic: light
+2018-07-16 19:11:14  INFO LightController:55 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 19:11:14  INFO LightController:86 - topic: light
+2018-07-16 19:11:15  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:15  INFO LightController:86 - topic: light
+2018-07-16 19:11:16  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:16  INFO LightController:86 - topic: light
+2018-07-16 19:11:16  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:16  INFO LightController:86 - topic: light
+2018-07-16 19:11:16  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:16  INFO LightController:86 - topic: light
+2018-07-16 19:11:17  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:17  INFO LightController:86 - topic: light
+2018-07-16 19:11:17  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:17  INFO LightController:86 - topic: light
+2018-07-16 19:11:17  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:17  INFO LightController:86 - topic: light
+2018-07-16 19:11:17  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:17  INFO LightController:86 - topic: light
+2018-07-16 19:11:18  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:18  INFO LightController:86 - topic: light
+2018-07-16 19:11:19  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:19  INFO LightController:86 - topic: light
+2018-07-16 19:11:19  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:19  INFO LightController:86 - topic: light
+2018-07-16 19:11:19  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:19  INFO LightController:86 - topic: light
+2018-07-16 19:11:19  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:11:19  INFO LightController:86 - topic: light
+2018-07-16 19:11:20  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:11:20  INFO LightController:86 - topic: light
+2018-07-16 19:12:50  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:12:50  INFO LightController:86 - topic: light
+2018-07-16 19:12:52  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:12:52  INFO LightController:86 - topic: light
+2018-07-16 19:12:53  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:12:53  INFO LightController:86 - topic: light
+2018-07-16 19:12:59  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:12:59  INFO LightController:86 - topic: light
+2018-07-16 19:12:59  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:12:59  INFO LightController:86 - topic: light
+2018-07-16 19:13:00  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:13:00  INFO LightController:86 - topic: light
+2018-07-16 19:13:02  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:13:02  INFO LightController:86 - topic: light
+2018-07-16 19:13:03  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:13:03  INFO LightController:86 - topic: light
+2018-07-16 19:13:04  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:13:04  INFO LightController:86 - topic: light
+2018-07-16 19:13:05  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:13:05  INFO LightController:86 - topic: light
+2018-07-16 19:13:05  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:13:05  INFO LightController:86 - topic: light
+2018-07-16 19:13:06  INFO LightController:55 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:13:06  INFO LightController:86 - topic: light
+2018-07-16 19:13:07  INFO LightController:55 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 19:13:07  INFO LightController:86 - topic: light
+2018-07-16 19:13:07  INFO LightController:55 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 19:13:07  INFO LightController:86 - topic: light
+2018-07-16 19:13:08  INFO LightController:55 - data: {"id":9,"stt":1}, cm: onoff
+2018-07-16 19:13:08  INFO LightController:86 - topic: light
+2018-07-16 19:13:09  INFO LightController:55 - data: {"id":9,"stt":0}, cm: onoff
+2018-07-16 19:13:09  INFO LightController:86 - topic: light
+2018-07-16 19:30:32  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 19:30:32  INFO ServerConnector:303 - Stopped ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:30:32  INFO ServerConnector:303 - Stopped ServerConnector@3f9b1027{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:30:32  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6e026199{/,null,UNAVAILABLE}
+2018-07-16 19:30:32  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 19:30:32  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f7b485d{/static,null,UNAVAILABLE}
+2018-07-16 19:31:00  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 19:31:00  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:31:01  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:31:01  INFO log:178 - Logging initialized @1274ms
+2018-07-16 19:31:01  INFO WebServer:66 - Start server...
+2018-07-16 19:31:01  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@20a6c885{/,null,null} contextPath ends with /*
+2018-07-16 19:31:01  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 19:31:01  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f7b485d{/static,null,AVAILABLE}
+2018-07-16 19:31:01  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 19:31:01  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6e026199{/,null,AVAILABLE}
+2018-07-16 19:31:01  INFO ServerConnector:266 - Started ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:31:01  INFO ServerConnector:266 - Started ServerConnector@3f9b1027{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:31:01  INFO Server:350 - Started @1468ms
+2018-07-16 19:31:29  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 19:31:29  INFO ServerConnector:303 - Stopped ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:31:29  INFO ServerConnector:303 - Stopped ServerConnector@3f9b1027{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:31:29  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6e026199{/,null,UNAVAILABLE}
+2018-07-16 19:31:29  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 19:31:29  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f7b485d{/static,null,UNAVAILABLE}
+2018-07-16 19:31:33  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 19:31:33  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:31:33  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:31:33  INFO log:178 - Logging initialized @1185ms
+2018-07-16 19:31:33  INFO WebServer:66 - Start server...
+2018-07-16 19:31:33  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@3d142048{/,null,null} contextPath ends with /*
+2018-07-16 19:31:33  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 19:31:33  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@55d35c10{/static,null,AVAILABLE}
+2018-07-16 19:31:33  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@3d142048{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 19:31:33  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@426db3de{/,null,AVAILABLE}
+2018-07-16 19:31:34  INFO ServerConnector:266 - Started ServerConnector@6c03bcba{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:31:34  INFO ServerConnector:266 - Started ServerConnector@4b8fd4cb{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:31:34  INFO Server:350 - Started @1386ms
+2018-07-16 19:31:42  INFO LightController:55 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:31:42  INFO LightController:86 - topic: light
+2018-07-16 19:32:07  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 19:32:08  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:32:08  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:32:08  INFO log:178 - Logging initialized @1283ms
+2018-07-16 19:32:08  INFO WebServer:66 - Start server...
+2018-07-16 19:32:08  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@461bc640{/,null,null} contextPath ends with /*
+2018-07-16 19:32:08  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 19:32:08  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@51dc9cc3{/static,null,AVAILABLE}
+2018-07-16 19:32:08  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@461bc640{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 19:32:08  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@579bdd8c{/,null,AVAILABLE}
+2018-07-16 19:32:08  WARN AbstractLifeCycle:210 - FAILED ServerConnector@39e72103{HTTP/1.1}{0.0.0.0:8585}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-16 19:32:08  WARN AbstractLifeCycle:210 - FAILED ServerConnector@6bec0de2{HTTP/1.1}{0.0.0.0:8586}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-16 19:32:08  WARN AbstractLifeCycle:210 - FAILED org.eclipse.jetty.server.Server@9423d6: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:303)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-16 19:32:08 ERROR WebServer:97 - Cannot start web server: Multiple exceptions
+2018-07-16 19:32:08  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 19:32:08  INFO ServerConnector:303 - Stopped ServerConnector@39e72103{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:32:08  INFO ServerConnector:303 - Stopped ServerConnector@6bec0de2{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:32:08  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@579bdd8c{/,null,UNAVAILABLE}
+2018-07-16 19:32:08  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@461bc640{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 19:32:08  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@51dc9cc3{/static,null,UNAVAILABLE}
+2018-07-16 19:48:45  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 19:48:45  INFO ServerConnector:303 - Stopped ServerConnector@6c03bcba{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:48:45  INFO ServerConnector:303 - Stopped ServerConnector@4b8fd4cb{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:48:45  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@426db3de{/,null,UNAVAILABLE}
+2018-07-16 19:48:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@3d142048{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 19:48:45  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@55d35c10{/static,null,UNAVAILABLE}
+2018-07-16 19:56:14  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 19:56:14  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:56:14  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 19:56:14  INFO log:178 - Logging initialized @1046ms
+2018-07-16 19:56:14  INFO WebServer:66 - Start server...
+2018-07-16 19:56:14  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@20a6c885{/,null,null} contextPath ends with /*
+2018-07-16 19:56:14  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 19:56:14  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f7b485d{/static,null,AVAILABLE}
+2018-07-16 19:56:14  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 19:56:14  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6e026199{/,null,AVAILABLE}
+2018-07-16 19:56:14  INFO ServerConnector:266 - Started ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 19:56:14  INFO ServerConnector:266 - Started ServerConnector@3f9b1027{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 19:56:14  INFO Server:350 - Started @1227ms
+2018-07-16 19:56:56  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 19:57:53  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 19:57:54  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 19:57:55  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 19:57:56  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:57:56  INFO LightController:92 - topic: light
+2018-07-16 19:58:28  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 19:58:28  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:58:28  INFO LightController:92 - topic: light
+2018-07-16 19:58:30  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 19:58:30  INFO LightController:92 - topic: light
+2018-07-16 19:58:31  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 19:58:31  INFO LightController:92 - topic: light
+2018-07-16 20:05:19  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 20:05:19  INFO ServerConnector:303 - Stopped ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 20:05:19  INFO ServerConnector:303 - Stopped ServerConnector@3f9b1027{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 20:05:19  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6e026199{/,null,UNAVAILABLE}
+2018-07-16 20:05:19  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 20:05:19  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f7b485d{/static,null,UNAVAILABLE}
+2018-07-16 20:05:22  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 20:05:22  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 20:05:23  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 20:05:23  INFO log:178 - Logging initialized @873ms
+2018-07-16 20:05:23  INFO WebServer:66 - Start server...
+2018-07-16 20:05:23  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@20a6c885{/,null,null} contextPath ends with /*
+2018-07-16 20:05:23  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 20:05:23  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f7b485d{/static,null,AVAILABLE}
+2018-07-16 20:05:23  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 20:05:23  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6e026199{/,null,AVAILABLE}
+2018-07-16 20:05:23  INFO ServerConnector:266 - Started ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 20:05:23  INFO ServerConnector:266 - Started ServerConnector@55b598e4{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 20:05:23  INFO Server:350 - Started @1274ms
+2018-07-16 20:06:04  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:06:06  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:06:06  INFO LightController:105 - topic: light
+2018-07-16 20:06:14  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:06:16  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:06:17  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:06:17  INFO LightController:105 - topic: light
+2018-07-16 20:06:18  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:06:19  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:06:19  INFO LightController:105 - topic: light
+2018-07-16 20:06:21  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:06:23  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:06:24  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:06:24  INFO LightController:105 - topic: light
+2018-07-16 20:08:11  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:08:11  INFO LightController:105 - topic: light
+2018-07-16 20:08:12  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:08:12  INFO LightController:105 - topic: light
+2018-07-16 20:08:29  INFO LightController:58 - data: {"id":7,"stt":1}, cm: onoff
+2018-07-16 20:08:29  INFO LightController:105 - topic: light
+2018-07-16 20:08:29  INFO LightController:58 - data: {"id":7,"stt":0}, cm: onoff
+2018-07-16 20:08:29  INFO LightController:105 - topic: light
+2018-07-16 20:08:30  INFO LightController:58 - data: {"id":7,"stt":1}, cm: onoff
+2018-07-16 20:08:30  INFO LightController:105 - topic: light
+2018-07-16 20:08:30  INFO LightController:58 - data: {"id":7,"stt":0}, cm: onoff
+2018-07-16 20:08:30  INFO LightController:105 - topic: light
+2018-07-16 20:08:46  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:08:46  INFO LightController:105 - topic: light
+2018-07-16 20:08:47  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:08:47  INFO LightController:105 - topic: light
+2018-07-16 20:08:47  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:08:47  INFO LightController:105 - topic: light
+2018-07-16 20:08:48  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:08:48  INFO LightController:105 - topic: light
+2018-07-16 20:08:48  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:08:48  INFO LightController:105 - topic: light
+2018-07-16 20:08:49  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:08:49  INFO LightController:105 - topic: light
+2018-07-16 20:08:52  INFO LightController:58 - data: {"id":9,"stt":1}, cm: onoff
+2018-07-16 20:08:52  INFO LightController:105 - topic: light
+2018-07-16 20:08:55  INFO LightController:58 - data: {"id":9,"stt":0}, cm: onoff
+2018-07-16 20:08:55  INFO LightController:105 - topic: light
+2018-07-16 20:09:22  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:09:22  INFO LightController:105 - topic: light
+2018-07-16 20:09:27  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:09:29  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:09:35  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:09:35  INFO LightController:105 - topic: light
+2018-07-16 20:09:43  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:09:46  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:09:47  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:09:59  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:09:59  INFO LightController:105 - topic: light
+2018-07-16 20:10:02  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:10:02  INFO LightController:105 - topic: light
+2018-07-16 20:10:02  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:10:02  INFO LightController:105 - topic: light
+2018-07-16 20:10:04  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:10:05  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:10:05  INFO LightController:105 - topic: light
+2018-07-16 20:10:06  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:10:06  INFO LightController:105 - topic: light
+2018-07-16 20:10:08  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:10:08  INFO LightController:105 - topic: light
+2018-07-16 20:10:08  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:10:08  INFO LightController:105 - topic: light
+2018-07-16 20:10:08  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:10:08  INFO LightController:105 - topic: light
+2018-07-16 20:10:09  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:10:09  INFO LightController:105 - topic: light
+2018-07-16 20:10:09  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:10:09  INFO LightController:105 - topic: light
+2018-07-16 20:10:10  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:10:10  INFO LightController:105 - topic: light
+2018-07-16 20:10:10  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:10:10  INFO LightController:105 - topic: light
+2018-07-16 20:10:11  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:10:11  INFO LightController:105 - topic: light
+2018-07-16 20:10:11  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:10:11  INFO LightController:105 - topic: light
+2018-07-16 20:10:12  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:10:12  INFO LightController:105 - topic: light
+2018-07-16 20:10:27  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:10:28  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:10:28  INFO LightController:105 - topic: light
+2018-07-16 20:10:29  INFO LightController:58 - data: {"id":5,"stt":1}, cm: onoff
+2018-07-16 20:10:29  INFO LightController:105 - topic: light
+2018-07-16 20:10:29  INFO LightController:58 - data: {"id":9,"stt":1}, cm: onoff
+2018-07-16 20:10:29  INFO LightController:105 - topic: light
+2018-07-16 20:10:30  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:10:30  INFO LightController:105 - topic: light
+2018-07-16 20:10:31  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:10:33  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:10:33  INFO LightController:105 - topic: light
+2018-07-16 20:10:33  INFO LightController:58 - data: {"id":5,"stt":0}, cm: onoff
+2018-07-16 20:10:33  INFO LightController:105 - topic: light
+2018-07-16 20:10:34  INFO LightController:58 - data: {"id":9,"stt":0}, cm: onoff
+2018-07-16 20:10:34  INFO LightController:105 - topic: light
+2018-07-16 20:10:34  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:10:34  INFO LightController:105 - topic: light
+2018-07-16 20:10:45  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:10:45  INFO LightController:105 - topic: light
+2018-07-16 20:10:45  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:10:45  INFO LightController:105 - topic: light
+2018-07-16 20:10:46  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:10:46  INFO LightController:105 - topic: light
+2018-07-16 20:10:46  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:10:46  INFO LightController:105 - topic: light
+2018-07-16 20:10:47  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:10:47  INFO LightController:105 - topic: light
+2018-07-16 20:10:48  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:10:48  INFO LightController:105 - topic: light
+2018-07-16 20:10:48  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:10:48  INFO LightController:105 - topic: light
+2018-07-16 20:10:49  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:10:49  INFO LightController:105 - topic: light
+2018-07-16 20:10:50  INFO LightController:58 - data: {"id":9,"stt":1}, cm: onoff
+2018-07-16 20:10:50  INFO LightController:105 - topic: light
+2018-07-16 20:10:51  INFO LightController:58 - data: {"id":9,"stt":0}, cm: onoff
+2018-07-16 20:10:51  INFO LightController:105 - topic: light
+2018-07-16 20:12:07  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:12:09  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:12:09  INFO LightController:105 - topic: light
+2018-07-16 20:12:09  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:12:09  INFO LightController:105 - topic: light
+2018-07-16 20:12:10  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:12:10  INFO LightController:105 - topic: light
+2018-07-16 20:12:11  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:12:11  INFO LightController:105 - topic: light
+2018-07-16 20:12:11  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:12:11  INFO LightController:105 - topic: light
+2018-07-16 20:12:11  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:12:11  INFO LightController:105 - topic: light
+2018-07-16 20:12:12  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:12:12  INFO LightController:105 - topic: light
+2018-07-16 20:12:12  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:12:12  INFO LightController:105 - topic: light
+2018-07-16 20:12:12  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:12:12  INFO LightController:105 - topic: light
+2018-07-16 20:12:13  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:12:13  INFO LightController:105 - topic: light
+2018-07-16 20:12:13  INFO LightController:58 - data: {"id":6,"stt":1}, cm: onoff
+2018-07-16 20:12:13  INFO LightController:105 - topic: light
+2018-07-16 20:12:14  INFO LightController:58 - data: {"id":10,"stt":1}, cm: onoff
+2018-07-16 20:12:14  INFO LightController:105 - topic: light
+2018-07-16 20:12:14  INFO LightController:58 - data: {"id":10,"stt":0}, cm: onoff
+2018-07-16 20:12:14  INFO LightController:105 - topic: light
+2018-07-16 20:12:15  INFO LightController:58 - data: {"id":6,"stt":0}, cm: onoff
+2018-07-16 20:12:15  INFO LightController:105 - topic: light
+2018-07-16 20:13:46  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:50  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:13:50  INFO LightController:105 - topic: light
+2018-07-16 20:13:51  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:55  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:13:55  INFO LightController:105 - topic: light
+2018-07-16 20:13:55  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:55  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:13:55  INFO LightController:105 - topic: light
+2018-07-16 20:13:56  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:56  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:13:56  INFO LightController:105 - topic: light
+2018-07-16 20:13:56  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:56  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:13:56  INFO LightController:105 - topic: light
+2018-07-16 20:13:56  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:57  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:13:57  INFO LightController:105 - topic: light
+2018-07-16 20:13:57  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:57  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:13:57  INFO LightController:105 - topic: light
+2018-07-16 20:13:57  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:13:58  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:13:58  INFO LightController:105 - topic: light
+2018-07-16 20:13:58  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:14  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:14:14  INFO LightController:105 - topic: light
+2018-07-16 20:14:15  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:18  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:14:18  INFO LightController:105 - topic: light
+2018-07-16 20:14:18  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:18  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:14:18  INFO LightController:105 - topic: light
+2018-07-16 20:14:18  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:19  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:14:19  INFO LightController:105 - topic: light
+2018-07-16 20:14:19  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:20  INFO LightController:58 - data: {"id":2,"stt":1}, cm: onoff
+2018-07-16 20:14:20  INFO LightController:105 - topic: light
+2018-07-16 20:14:20  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:25  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:14:25  INFO LightController:105 - topic: light
+2018-07-16 20:14:25  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:30  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:14:30  INFO LightController:105 - topic: light
+2018-07-16 20:14:30  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:31  INFO LightController:58 - data: {"id":2,"stt":0}, cm: onoff
+2018-07-16 20:14:31  INFO LightController:105 - topic: light
+2018-07-16 20:14:31  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:32  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:14:32  INFO LightController:105 - topic: light
+2018-07-16 20:14:32  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:14:33  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:14:33  INFO LightController:105 - topic: light
+2018-07-16 20:14:33  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:17  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:17  INFO LightController:105 - topic: light
+2018-07-16 20:15:17  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:18  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:18  INFO LightController:105 - topic: light
+2018-07-16 20:15:18  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:19  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:20  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:20  INFO LightController:105 - topic: light
+2018-07-16 20:15:20  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:24  INFO LightController:58 - data: {"id":7,"stt":1}, cm: onoff
+2018-07-16 20:15:24  INFO LightController:105 - topic: light
+2018-07-16 20:15:24  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:30  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:15:30  INFO LightController:105 - topic: light
+2018-07-16 20:15:31  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:41  INFO LightController:58 - data: {"id":1,"stt":0}, cm: onoff
+2018-07-16 20:15:41  INFO LightController:105 - topic: light
+2018-07-16 20:15:41  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:42  INFO LightController:58 - data: {"id":7,"stt":0}, cm: onoff
+2018-07-16 20:15:42  INFO LightController:105 - topic: light
+2018-07-16 20:15:42  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:43  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:43  INFO LightController:105 - topic: light
+2018-07-16 20:15:43  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:44  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:44  INFO LightController:105 - topic: light
+2018-07-16 20:15:44  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:44  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:44  INFO LightController:105 - topic: light
+2018-07-16 20:15:44  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:45  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:45  INFO LightController:105 - topic: light
+2018-07-16 20:15:45  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:45  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:45  INFO LightController:105 - topic: light
+2018-07-16 20:15:45  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:45  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:45  INFO LightController:105 - topic: light
+2018-07-16 20:15:45  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:46  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:46  INFO LightController:105 - topic: light
+2018-07-16 20:15:46  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:46  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:46  INFO LightController:105 - topic: light
+2018-07-16 20:15:46  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:46  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:46  INFO LightController:105 - topic: light
+2018-07-16 20:15:46  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:46  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:46  INFO LightController:105 - topic: light
+2018-07-16 20:15:46  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:47  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:47  INFO LightController:105 - topic: light
+2018-07-16 20:15:47  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:47  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:47  INFO LightController:105 - topic: light
+2018-07-16 20:15:47  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:47  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:47  INFO LightController:105 - topic: light
+2018-07-16 20:15:47  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:47  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:47  INFO LightController:105 - topic: light
+2018-07-16 20:15:47  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:48  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:48  INFO LightController:105 - topic: light
+2018-07-16 20:15:48  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:48  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:48  INFO LightController:105 - topic: light
+2018-07-16 20:15:48  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:48  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:48  INFO LightController:105 - topic: light
+2018-07-16 20:15:48  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:49  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:49  INFO LightController:105 - topic: light
+2018-07-16 20:15:49  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:49  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:49  INFO LightController:105 - topic: light
+2018-07-16 20:15:49  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:49  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:49  INFO LightController:105 - topic: light
+2018-07-16 20:15:49  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:50  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:50  INFO LightController:105 - topic: light
+2018-07-16 20:15:50  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:50  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:50  INFO LightController:105 - topic: light
+2018-07-16 20:15:50  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:50  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:50  INFO LightController:105 - topic: light
+2018-07-16 20:15:50  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:51  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:51  INFO LightController:105 - topic: light
+2018-07-16 20:15:51  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:51  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:51  INFO LightController:105 - topic: light
+2018-07-16 20:15:51  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:51  INFO LightController:58 - data: {"id":3,"stt":1}, cm: onoff
+2018-07-16 20:15:51  INFO LightController:105 - topic: light
+2018-07-16 20:15:51  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:15:52  INFO LightController:58 - data: {"id":3,"stt":0}, cm: onoff
+2018-07-16 20:15:52  INFO LightController:105 - topic: light
+2018-07-16 20:15:52  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:20:08  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 20:20:08  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 20:20:08  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 20:20:08  INFO log:178 - Logging initialized @1140ms
+2018-07-16 20:20:08  INFO WebServer:66 - Start server...
+2018-07-16 20:20:09  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@20a6c885{/,null,null} contextPath ends with /*
+2018-07-16 20:20:09  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 20:20:09  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@2f7b485d{/static,null,AVAILABLE}
+2018-07-16 20:20:09  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 20:20:09  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@6e026199{/,null,AVAILABLE}
+2018-07-16 20:20:09  WARN AbstractLifeCycle:210 - FAILED ServerConnector@2387acde{HTTP/1.1}{0.0.0.0:8585}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-16 20:20:09  WARN AbstractLifeCycle:210 - FAILED ServerConnector@2acb566b{HTTP/1.1}{0.0.0.0:8586}: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-16 20:20:09  WARN AbstractLifeCycle:210 - FAILED org.eclipse.jetty.server.Server@339998fd: MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+MultiException[java.net.BindException: Address already in use, java.net.BindException: Address already in use]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:303)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:279)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:218)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:337)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.gateway.main.WebServer.run(WebServer.java:94)
+	at java.lang.Thread.run(Thread.java:748)
+2018-07-16 20:20:09 ERROR WebServer:97 - Cannot start web server: Multiple exceptions
+2018-07-16 20:20:09  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 20:20:09  INFO ServerConnector:303 - Stopped ServerConnector@2387acde{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 20:20:09  INFO ServerConnector:303 - Stopped ServerConnector@2acb566b{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 20:20:09  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6e026199{/,null,UNAVAILABLE}
+2018-07-16 20:20:09  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 20:20:09  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f7b485d{/static,null,UNAVAILABLE}
+2018-07-16 20:20:14  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 20:20:14  INFO ServerConnector:303 - Stopped ServerConnector@19f882f6{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 20:20:14  INFO ServerConnector:303 - Stopped ServerConnector@55b598e4{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 20:20:14  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@6e026199{/,null,UNAVAILABLE}
+2018-07-16 20:20:14  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@20a6c885{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 20:20:14  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@2f7b485d{/static,null,UNAVAILABLE}
+2018-07-16 20:20:16  INFO MqttManager:48 - mqtt broker = ws://171.244.23.18:18083
+2018-07-16 20:20:16  INFO MqttPublisher:33 - GbcMqttPublisher connect success: broker = ws://171.244.23.18:18083
+2018-07-16 20:20:16  INFO MqttSubscriber:33 - GbcMqttSubscriber connect success: broker = ws://171.244.23.18:18083
+2018-07-16 20:20:16  INFO log:178 - Logging initialized @1090ms
+2018-07-16 20:20:16  INFO WebServer:66 - Start server...
+2018-07-16 20:20:16  WARN ContextHandler:1324 - o.e.j.s.h.ContextHandler@6905a638{/,null,null} contextPath ends with /*
+2018-07-16 20:20:16  INFO Server:301 - jetty-9.1.5.v20140505
+2018-07-16 20:20:16  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6f2a7219{/static,null,AVAILABLE}
+2018-07-16 20:20:17  INFO ContextHandler:747 - Started o.e.j.s.h.ContextHandler@6905a638{/iot-demo/ntf,null,AVAILABLE}
+2018-07-16 20:20:17  INFO ContextHandler:747 - Started o.e.j.s.ServletContextHandler@f859678{/,null,AVAILABLE}
+2018-07-16 20:20:17  INFO ServerConnector:266 - Started ServerConnector@1e7afb5{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 20:20:17  INFO ServerConnector:266 - Started ServerConnector@3ea6dcb3{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 20:20:17  INFO Server:350 - Started @1256ms
+2018-07-16 20:20:44  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:20:49  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:21:04  INFO LightController:58 - data: {"id":1,"stt":1}, cm: onoff
+2018-07-16 20:21:04  INFO LightController:107 - topic: light
+2018-07-16 20:21:04  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:21:04  INFO LightController:58 - data: {}, cm: getlist
+2018-07-16 20:21:21  INFO ServiceDaemon:33 - Shutdown thread before webserver getinstance
+2018-07-16 20:21:21  INFO ServerConnector:303 - Stopped ServerConnector@1e7afb5{HTTP/1.1}{0.0.0.0:8585}
+2018-07-16 20:21:21  INFO ServerConnector:303 - Stopped ServerConnector@3ea6dcb3{HTTP/1.1}{0.0.0.0:8586}
+2018-07-16 20:21:21  INFO ContextHandler:864 - Stopped o.e.j.s.ServletContextHandler@f859678{/,null,UNAVAILABLE}
+2018-07-16 20:21:21  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6905a638{/iot-demo/ntf,null,UNAVAILABLE}
+2018-07-16 20:21:21  INFO ContextHandler:864 - Stopped o.e.j.s.h.ContextHandler@6f2a7219{/static,null,UNAVAILABLE}

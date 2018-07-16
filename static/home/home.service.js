@@ -12,13 +12,24 @@
         var url = API_URL + "iot-demo/v1/api";
         
         service.onoff = onoff;
+        service.getlist = getlist;
         
         return service;
         
         function onoff(id, stt) {
-            console.log("url: " + url);
             var cmd = "onoff";
             var dtJson = {id: id, stt: stt};
+            var dt = JSON.stringify(dtJson);
+            var data = $.param({
+                cm: cmd,
+                dt: dt
+            });
+            return $http.post(url, data).then(handleSuccess, handleError('onoff error'));
+        }
+        
+        function getlist() {
+            var cmd = "getlist";
+            var dtJson = {};
             var dt = JSON.stringify(dtJson);
             var data = $.param({
                 cm: cmd,

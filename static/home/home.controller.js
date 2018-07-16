@@ -6,74 +6,12 @@
             .controller('HomeController', HomeController);
     HomeController.$inject = ['$scope', 'HomeService', 'MQTT_HOST', 'MQTT_PORT', 'MQTT_PATH', 'MQTT_ID'];
     function HomeController($scope, HomeService, MQTT_HOST, MQTT_PORT, MQTT_PATH, MQTT_ID) {
-        var data = [
-            {
-                id: 1,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 1"
-            },
-            {
-                id: 2,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 2"
-            },
-            {
-                id: 3,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 3"
-            },
-            {
-                id: 4,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 4"
-            },
-            {
-                id: 5,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 5"
-            },
-            {
-                id: 6,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 6"
-            },
-            {
-                id: 7,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 7"
-            },
-            {
-                id: 8,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 8"
-            },
-            {
-                id: 9,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 9"
-            },
-            {
-                id: 10,
-                stt: 0,
-                img: "lightOff.png",
-                name: "Đèn 10"
-            }
-        ];
-        $scope.listlight = data;
         var mqtt_client;
+        var sessionId = "";
         $scope.mqtt = function () {
             console.log("init mqtt");
             // Create a client instance
-            mqtt_client = new Paho.MQTT.Client(MQTT_HOST, MQTT_PORT, MQTT_PATH, MQTT_ID);
+            mqtt_client = new Paho.MQTT.Client(MQTT_HOST, MQTT_PORT, MQTT_PATH, sessionId);
 
             // set callback handlers
             mqtt_client.onConnectionLost = onConnectionLost;
@@ -82,6 +20,12 @@
             // connect the client
             mqtt_client.connect({onSuccess: onConnect}); 
         };
+
+        function genSessionID(){
+          var current = Date.now();
+          var tempNum = Math.floor(Math.random() * (1000 - 1 + 1) + 1);
+          sessionId = current.toString() + "-" + tempNum.toString();  
+        }
         
         // called when the client connects
         function onConnect() {
@@ -100,35 +44,30 @@
         // called when a message arrives
         $scope.onMessageArrived = function(message) {
             console.log("onMessageArrived:" + message.payloadString);
-            var jpayload = JSON.parse(message.payloadString);
-            console.log("jpayload.id:   " + jpayload.id);
-            console.log("jpayload.stt:  " + jpayload.stt);
-            for (var i = 0; i < $scope.listlight.length; i++) {
-                console.log('$scope.listlight[' + i + '].id: ' + $scope.listlight[i].id);
-                if ($scope.listlight[i].id === jpayload.id) {
-                    console.log('OK');
-                    $scope.listlight[i].stt = jpayload.stt;
-                    if ($scope.listlight[i].stt === 0) {
-                        $scope.listlight[i].img = "lightOff.png";
-                    } else {
-                        $scope.listlight[i].img = "lightOn.png";
-                    }
-                }
-            }
-            
-            console.log('dt: ' + JSON.stringify($scope.listlight));
+            $scope.getlist();
         };
 
         $scope.init = function () {
+            genSessionID();
             $scope.mqtt();
+            $scope.getlist();
         };
+        
+        $scope.getlist = function() {
+            HomeService.getlist().then(function (response) {
+                if (response.err === 0) {
+                    $scope.listlight = response.dt;
+                }
+            });
+        };
+        
         $scope.init();
 
         $scope.updateLightStt = function (mess) {
             var jsonData = mess.dt;
             for (var i = 0; i < $scope.listlight.length; i++) {
                 if ($scope.listlight[i].id === jsonData.id) {
-                    var light_stt = 1 - jsonData.stt;
+                    var light_stt = jsonData.stt;
                     $scope.listlight[i].stt = light_stt;
                     if (light_stt === 0) {
                         $scope.listlight[i].img = "lightOff.png";
@@ -152,10 +91,9 @@
                                 $scope.listlight[i].img = "lightOn.png";
                             }
                         } else {
-                            
+                            console.log('control light err, dt: ' + JSON.stringify(light));
                         }
                         
-                        console.log('$scope.listlight: ' + JSON.stringify($scope.listlight));
                         console.log("MSG_TYPE_LIGHT_ONOFF: " + MSG_TYPE_LIGHT_ONOFF);
 //                        WSService.addCallBack(MSG_TYPE_LIGHT_ONOFF, $scope.updateLightStt);
                     });
